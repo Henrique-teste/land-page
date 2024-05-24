@@ -1,0 +1,36 @@
+.header{
+    background-color: #fff;
+    border: solid 2px #8395a7;
+    border-radius: 10px;
+    padding: 20px;
+    &__container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        img{
+            height: 60px;
+        }
+        &__button{
+            
+            &--button1{
+                padding: 15px;
+                border-radius: 10px;
+                background-color:#1dd1a1;
+                border: solid 1px #fff; 
+                color: #f2f9ff;
+
+                &:hover{
+                    background-color:#22e7b3;
+                }
+            }
+
+            &--button2{
+                padding: 15px;
+                border-radius: 10px;
+                background-color:#1dd1a1;
+                border: solid 1px #fff; 
+                color: #f2f9ff;
+            }
+        }
+    }
+}
