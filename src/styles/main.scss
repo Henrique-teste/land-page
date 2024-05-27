@@ -1,8 +1,11 @@
+@use 'promocoes';
+@use 'sobre';
 .header{
     background-color: #fff;
     border: solid 2px #8395a7;
     border-radius: 10px;
     padding: 20px;
+
     &__container{
         display: flex;
         align-items: center;
@@ -12,16 +15,18 @@
         }
         &__button{
             
+
             &--button1{
                 padding: 15px;
                 border-radius: 10px;
                 background-color:#1dd1a1;
                 border: solid 1px #fff; 
                 color: #f2f9ff;
-
+                font-family: 'Courier New', Courier, monospace;
                 &:hover{
                     background-color:#22e7b3;
                 }
+
             }
 
             &--button2{
@@ -30,7 +35,20 @@
                 background-color:#1dd1a1;
                 border: solid 1px #fff; 
                 color: #f2f9ff;
+                font-family: 'Courier New', Courier, monospace;
+                &:hover{
+                    background-color:#22e7b3;
+                }
             }
         }
     }
+}
+
+h1{
+    text-align: center;
+    color: #fff;
+    background-color: #55efc4;
+    padding: 20px 0 30px 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
 }
