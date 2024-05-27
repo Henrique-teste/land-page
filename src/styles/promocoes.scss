@@ -1,0 +1,20 @@
+.section{
+    padding: 50vw;
+    &__container{
+        h1{
+            text-align: center;
+            color: #fff;
+            background-color: #55efc4;
+            padding: 20px 0 30px 0;
+            margin: 0;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        &__promocoes{
+            display: flex;
+            justify-content: center;
+            gap: 2%;
+            background-color: #00a8ff;
+            padding: 20px 0;
+        }
+    }
+}
